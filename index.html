@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Retro Website</title>
+    <title>Tushar Prakash - Terminal CV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to the Retro Web!</h1>
-        </header>
+    <div class="terminal">
+        <div class="terminal-header">
+            <span class="circle red"></span>
+            <span class="circle yellow"></span>
+            <span class="circle green"></span>
+            <div class="title">~/Tushar_Prakash_CV</div>
+        </div>
 
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+        <div class="terminal-body">
+            <p class="prompt">Welcome to the interactive CV of Tushar Prakash.</p>
+            <p class="prompt">Type a command to learn more:</p>
+            <ul class="commands">
+                <li><span class="command">about</span> - Learn about Tushar</li>
+                <li><span class="command">education</span> - Education details</li>
+                <li><span class="command">skills</span> - Technical skills</li>
+                <li><span class="command">experience</span> - Professional experience</li>
+                <li><span class="command">publications</span> - Selected publications</li>
+                <li><span class="command">contact</span> - Contact information</li>
+                <li><span class="command">cv</span> - View Tushar's CV directly</li>
             </ul>
-        </nav>
+            </ul>
 
-        <main>
-            <h2>Step Back in Time</h2>
-            <p>This website takes you back to the early 90s with its neon colors, pixelated text, and minimalistic design. The era when web design was raw and edgy!</p>
-            <button>Explore More</button>
-        </main>
+            <p class="input">> <span id="typed-input"></span><span class="blinker">|</span></p>
 
-        <footer>
-            <p>&copy; 2024 Retro Vibes. All Rights Reserved.</p>
-        </footer>
+            <div id="output" class="output"></div>
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
