@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 displayOutput("Selected Publications: 1) 'LLM-BRec: Personalizing Session-based Social Recommendation with LLM-BERT Fusion Framework' (ACM SIGIR), 2) 'MVBN: Enhancing Social Recommendation with Multi-View BERT Network' (IEEE ICDM), 3) 'CR-SoRec: BERT driven Consistency Regularization for Social Recommendation' (ACM RecSys).");
                 break;
             case 'contact':
-                displayOutput("Contact Information: Email: tushar121prakash@gmail.com | GitHub: github.com/theTushar-dot | LinkedIn: linkedin.com/in/tusharprakash");
+                displayOutput("Contact Information: Email: tushar121prakash@gmail.com | GitHub: github.com/theTushar-dot | LinkedIn: https://www.linkedin.com/in/tushar-dot-prakash/");
                 break;
             case 'help':
                 displayOutput("Available commands: about, education, skills, experience, publications, contact, cv");
